@@ -40,6 +40,9 @@ public class Login extends JFrame {
                     setVisible(true);
                     dispose();
                 }
+                if (!usuario.equals("Jug") || !contrasenia.equals("123") || !usuario.equals("Admin") || !contrasenia.equals("1234")){
+                    JOptionPane.showMessageDialog(null,"Usuario o contraseña incorrectos");
+                }
             }
         });
     }
